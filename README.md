@@ -1,38 +1,39 @@
-Prodigy_DS_02
-🚢 Titanic EDA – Data Analysis with Python
+# 🛳️ Titanic Project – Prodigy Infotech Task-02
 
-Performed exploratory data analysis (EDA) on the Titanic dataset using Python and visualized the insights through professional charts and plots.
+This project performs **data cleaning** and **exploratory data analysis (EDA)** on the famous [Titanic dataset](https://www.kaggle.com/c/titanic/data). It generates insights about passenger survival patterns and exports professional visualizations into a single PDF file.
 
-📌 Project Overview
-The Titanic dataset is a classic case used in machine learning and data analysis. The goal was to:
+---
 
-Clean and prepare the data
-Perform EDA and uncover patterns
-Visualize trends using Matplotlib & Seaborn
-Export findings as a professional PDF report
-📁 Files Included
-File Name	Description
-Task_2.ipynb	Full Jupyter Notebook (EDA Code)
-Task_2.pdf	Final code with plots
-Visualisation.pdf	Visualizations
-describe.csv	Summary statistics of numeric features
-head.csv	First five rows of the cleaned dataset
-train.csv	Dataset Used
-🔧 Tools Used
-PYTHON
+## 📌 Task Objective
 
-Pandas
-Seaborn
-Matplotlib
-📊 Visualizations Included
-Survival by Gender, Class, Age
-Family size impact on survival
-Embarkation analysis
-Pie chart of survival distribution
-Correlation heatmap
-🧼 Data Cleaning Performed
-Filled missing values (Age, Embarked)
-Dropped Cabin column due to heavy missing data
-Created FamilySize feature
-📷 Preview
-Screenshot 2025-06-19 at 11 49 21 PM Screenshot 2025-06-19 at 11 49 45 PM Screenshot 2025-06-19 at 11 50 08 PM
+> Perform data cleaning and exploratory data analysis (EDA) on a dataset of your choice, such as the Titanic dataset from Kaggle. Explore the relationships between variables and identify patterns and trends in the data.
+
+---
+
+## 📁 Dataset
+
+- Source: [Kaggle Titanic Competition](https://www.kaggle.com/c/titanic/data)
+- File used: `train.csv` (should be placed in the same directory as the script)
+
+---
+
+## ⚙️ Tools Used
+
+- **Python**  
+- **Jupyter Notebook / IPython**
+- **Pandas**  
+- **NumPy**  
+- **Matplotlib**  
+- **Seaborn**
+
+---
+
+## 📊 What the Code Does
+
+1. **Loads and displays** the Titanic dataset
+2. **Cleans missing data** from:
+   - Age (filled with median)
+   - Embarked (filled with mode)
+   - Drops Cabin (too many missing values)
+3. **Adds a new feature**: `FamilySize = SibSp + Parch`
+4. **Saves** cleaned data preview and statistics as
