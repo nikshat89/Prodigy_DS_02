@@ -36,4 +36,4 @@ This project performs **data cleaning** and **exploratory data analysis (EDA)** 
    - Embarked (filled with mode)
    - Drops Cabin (too many missing values)
 3. **Adds a new feature**: `FamilySize = SibSp + Parch`
-4. **Saves** cleaned data preview and statistics as
+4. **Saves** cleaned data preview and statistics 
